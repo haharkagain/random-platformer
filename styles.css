@@ -1,0 +1,7 @@
+body {
+    background-color: gray;
+}
+#platformer {
+    margin: auto;
+    display: block;
+}
