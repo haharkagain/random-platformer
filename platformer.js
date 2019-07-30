@@ -80,6 +80,9 @@ function platformer() {
             while (xChange < maxVel + 1) {
                 xChange++;
             }
+            while ((xChange > maxVel + 1) && (xChange < maxVel + 5)) {
+                xChange++;
+            }
             y -= yChange;
         }  
     }
